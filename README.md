@@ -1,4 +1,4 @@
-# Banana Pi BPI-R3 Homematic UART for OpenWrt
+# Banana Pi BPI-R3 HM-MOD-RPI-PCB for OpenWrt as LAN Gateway
 
 OpenWrt integration for using Homematic RF modules with the Banana Pi BPI-R3.
 
@@ -63,6 +63,7 @@ Banana Pi BPI-R3.
 ## OpenWrt integration
 
 Start with a clean OpenWrt source tree.
+https://openwrt.org/docs/guide-developer/toolchain/use-buildsystem
 
 Clone this repository separately and run:
 
