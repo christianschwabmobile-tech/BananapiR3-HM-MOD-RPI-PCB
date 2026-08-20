@@ -97,14 +97,6 @@ The project aims to provide:
 - maintainability across future OpenWrt releases
 - useful diagnostics for problem reports
 
-## Known working baseline
-
-The Git tag:
-
-    baseline-working
-
-points to the first known working Banana Pi BPI-R3 Homematic UART
-implementation.
 
 ## License
 
