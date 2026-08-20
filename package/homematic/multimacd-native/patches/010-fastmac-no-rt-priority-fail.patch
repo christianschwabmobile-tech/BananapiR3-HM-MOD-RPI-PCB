@@ -1,0 +1,17 @@
+--- a/src/multimacd/FastMacResponder.cpp
++++ b/src/multimacd/FastMacResponder.cpp
+@@ -112,11 +112,10 @@ void FastMacResponder::ThreadFunction()
+ #endif
+ 
+-	if( !Sysutils::ThreadSetSchedulingPriority( 0 ) )
+-	{
+-		close( _fd );
+-		return;
+-	}
++	if( !Sysutils::ThreadSetSchedulingPriority( 0 ) )
++		LOG( Logger::LOG_WARNING,
++		     "FastMacResponder: scheduling priority unavailable, continuing without realtime priority" );
++
+ 	uint8_t buffer[1024];
+ 	size_t bufLength = 0;
+ 	while( !_exit )

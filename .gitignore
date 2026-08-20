@@ -1,0 +1,20 @@
+# OpenWrt build artifacts
+bin/
+build_dir/
+staging_dir/
+tmp/
+dl/
+
+# Generated configuration
+.config
+.config.old
+
+# Editor / OS files
+*~
+*.swp
+*.swo
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp

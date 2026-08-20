@@ -1,0 +1,11 @@
+--- a/arch/arm64/boot/dts/mediatek/mt7986a-bananapi-bpi-r3.dts
++++ b/arch/arm64/boot/dts/mediatek/mt7986a-bananapi-bpi-r3.dts
+@@ -473,6 +473,8 @@
+ };
+ 
+ &uart1 {
++	compatible = "pivccu,mt7986-uart";
++	pivccu,reset-gpios = <&pio 64 GPIO_ACTIVE_HIGH>;
+ 	pinctrl-names = "default";
+ 	pinctrl-0 = <&uart1_pins>;
+ 	status = "okay";
