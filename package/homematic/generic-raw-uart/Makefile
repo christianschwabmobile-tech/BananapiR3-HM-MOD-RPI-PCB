@@ -2,6 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=generic-raw-uart
 PKG_RELEASE:=1
+PKG_LICENSE:=GPL-2.0-or-later
 
 include $(INCLUDE_DIR)/kernel.mk
 include $(INCLUDE_DIR)/package.mk

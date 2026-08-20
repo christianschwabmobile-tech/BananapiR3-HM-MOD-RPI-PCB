@@ -5,6 +5,7 @@ include $(INCLUDE_DIR)/package.mk
 
 PKG_NAME:=mtk-raw-uart
 PKG_RELEASE:=1
+PKG_LICENSE:=GPL-2.0-only
 
 PKG_BUILD_DIR:=$(KERNEL_BUILD_DIR)/$(PKG_NAME)
 

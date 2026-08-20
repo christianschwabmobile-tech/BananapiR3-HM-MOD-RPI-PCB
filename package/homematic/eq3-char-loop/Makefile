@@ -3,6 +3,7 @@ include $(INCLUDE_DIR)/kernel.mk
 
 PKG_NAME:=eq3-char-loop
 PKG_RELEASE:=1
+PKG_LICENSE:=GPL-2.0-or-later
 
 include $(INCLUDE_DIR)/package.mk
 
