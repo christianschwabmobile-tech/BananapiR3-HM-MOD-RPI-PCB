@@ -77,7 +77,7 @@ configuration.
 
 After booting R3 with the new image, the HM-MOD-RPI-PCB is available as Lan Gateway in OCCU by IP Adress and Serial Number. 
 
-The Serial Number can checked by
+The serial number can be read using the following command:
 
     ps w | grep '[h]mlangw'
 
