@@ -75,7 +75,7 @@ patches.
 Afterwards configure OpenWrt using `make menuconfig` or an existing build
 configuration.
 
-After booting R3 with the new image, the HM-MOD-RPI-PCB is available as Lan Gateway in OCCU by IP Adress and Serial Number. 
+After booting R3 with the new image, the HM-MOD-RPI-PCB is available as Lan Gateway in OCCU by IP Address and Serial Number. 
 
 The serial number can be read using the following command:
 
